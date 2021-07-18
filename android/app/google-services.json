@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "945461685846",
+    "project_id": "the-world-of-books-60b2e",
+    "storage_bucket": "the-world-of-books-60b2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945461685846:android:34fe202f9e3440808915f7",
+        "android_client_info": {
+          "package_name": "com.example.the_world_of_books"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945461685846-u6e1sotjbp0thtea4sa3qgimdfai8l5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCSTzUP0I55eRHI5nq3rEv56FdwE9VmR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945461685846-u6e1sotjbp0thtea4sa3qgimdfai8l5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

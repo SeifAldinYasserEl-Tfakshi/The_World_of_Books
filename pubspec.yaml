@@ -1,0 +1,304 @@
+name: the_world_of_books
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.3
+  carousel_pro: ^1.0.0
+  firebase_auth: ^3.0.1
+  cloud_firestore: ^2.4.0
+  firebase_messaging: ^10.0.4
+  provider: ^5.0.0
+  path_provider: ^2.0.2
+  http: ^0.13.3
+  firebase_storage: ^10.0.1
+  firebase_core: ^1.4.0
+  firebase_analytics: ^8.2.0
+
+  firebase_database: ^7.1.2
+  file_picker: ^3.0.3
+  pdf_viewer_plugin: ^1.1.1
+  flutter_full_pdf_viewer: ^1.0.6
+  image_picker: ^0.8.2
+  pdf: ^3.4.2
+  awesome_dialog: ^2.1.0
+  firebase_core_platform_interface: ^4.0.1
+  firebase_storage_platform_interface: ^4.0.0
+  firebase_storage_web: ^3.0.0
+  flutter_launcher_icons: ^0.9.0
+  credit_card_validate: ^0.0.3
+  font_awesome_flutter: ^9.1.0
+  animated_splash_screen: ^1.1.0
+  url_launcher: ^6.0.6
+flutter_icons:
+  image_path: "images/pics/logo.png"
+  android: true
+  ios: true
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.4
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/pics/img1.jpg
+    - images/pics/logo.png
+    - images/pics/firstimg.jpg
+    - images/pics/back.jpg
+    - images/pics/logopage.jpg
+    - images/pics/imgnew.jpg
+    - images/pics/authour.jpg
+    - images/pics/free1.jpg
+    - images/pics/free2.jpg
+    - images/pics/free3.jpg
+    - images/pics/free4.jpg
+    - images/pics/1new.jpg
+    - images/pics/2new.jpg
+    - images/pics/3new.jpg
+    - images/pics/4new.jpg
+    - images/pics/5new.jpg
+    - images/pics/6new.jpg
+    - images/pics/7new.jpg
+    - images/pics/8new.jpg
+    - images/pics/9new.jpg
+    - images/pics/10new.jpg
+    - images/pics/angularjpeg.jpg
+    - images/pics/angular.png
+    - images/pics/mathbook.png
+    - images/pics/mathbook.jpg
+    - images/pics/englishbook.jpg
+    - images/pics/englishbook.png
+    - images/pics/dsa.png
+    - images/pics/dsa.jpg
+    - images/pics/nhao.png
+    - images/pics/nhao.jpg
+    - images/pics/mohsba.png
+    - images/pics/mohsba.jpg
+    - images/pics/jsckid.png
+    - images/pics/jsckid.jpg
+    - images/pics/law.png
+    - images/pics/law.jpg
+    - images/pics/tabkh.jpg
+    - images/pics/tabkh.png
+    - images/pics/gluten.jpg
+    - images/pics/gluten.png
+    - images/pics/sandwich.jpg
+    - images/pics/sandwich.png
+    - images/pics/satvic.jpg
+    - images/pics/satvic.png
+    - images/pics/nutri.jpg
+    - images/pics/nutri.png
+    - images/pics/ghsan.jpg
+    - images/pics/ghsan.png
+    - images/pics/wild.jpg
+    - images/pics/wild.png
+    - images/pics/cook.jpg
+    - images/pics/cook.png
+    - images/pics/createbook.jpg
+    - images/pics/feedback.jpg
+    - images/pics/dynamics.jpg
+    - images/pics/dynamics.png
+    - images/pics/magntic.jpg
+    - images/pics/magntic.png
+    - images/pics/info.jpg
+    - images/pics/info.png
+    - images/pics/chemistry.png
+    - images/pics/chemistry.jpg
+    - images/pics/biology.png
+    - images/pics/biology.jpg
+    - images/pics/physics.jpg
+    - images/pics/physics.png
+    - images/pics/sociology.jpg
+    - images/pics/sociology.png
+    - images/pics/astronomy.png
+    - images/pics/astronomy.jpg
+    - images/pics/adb.jpg
+    - images/pics/adb.png
+    - images/pics/tarekh.png
+    - images/pics/tarekh.jpg
+    - images/pics/bank.png
+    - images/pics/bank.jpg
+    - images/pics/arod.png
+    - images/pics/arod.jpg
+    - images/pics/adbhistory.jpg
+    - images/pics/adbhistory.png
+    - images/pics/asor.jpg
+    - images/pics/asor.png
+    - images/pics/hekaya.png
+    - images/pics/hekaya.jpg
+    - images/pics/khyam.jpg
+    - images/pics/khyam.png
+    - images/pics/handball.jpg
+    - images/pics/handball.png
+    - images/pics/sportphys.jpg
+    - images/pics/sportphys.png
+    - images/pics/sahy.png
+    - images/pics/sahy.jpg
+    - images/pics/fn.jpg
+    - images/pics/fn.png
+    - images/pics/martial.png
+    - images/pics/martial.jpg
+    - images/pics/twla.jpg
+    - images/pics/twla.png
+    - images/pics/sbaha.jpg
+    - images/pics/sbaha.png
+    - images/pics/khel.jpg
+    - images/pics/khel.png
+    - images/pics/fahd.jpg
+    - images/pics/fahd.png
+    - images/pics/woman.png
+    - images/pics/woman.jpg
+    - images/pics/dfan.png
+    - images/pics/dfan.jpg
+    - images/pics/mogh.png
+    - images/pics/mogh.jpg
+    - images/pics/sher.png
+    - images/pics/sher.jpg
+    - images/pics/madi.png
+    - images/pics/madi.jpg
+    - images/pics/johns.png
+    - images/pics/johns.jpg
+    - images/pics/khyal.jpg
+    - images/pics/khyal.png
+    - images/pics/khto.png
+    - images/pics/khto.jpg
+    - images/pics/adr.png
+    - images/pics/adr.jpg
+    - images/pics/tswek.png
+    - images/pics/tswek.jpg
+    - images/pics/moamlat.png
+    - images/pics/moamlat.jpg
+    - images/pics/borsa.png
+    - images/pics/borsa.jpg
+    - images/pics/qowa.png
+    - images/pics/qowa.jpg
+    - images/pics/fekr.png
+    - images/pics/fekr.jpg
+    - images/pics/nft.png
+    - images/pics/nft.jpg
+    - images/pics/abasya.png
+    - images/pics/abasya.jpg
+    - images/pics/africa.jpg
+    - images/pics/africa.png
+    - images/pics/andalos.png
+    - images/pics/andalos.jpg
+    - images/pics/arab.png
+    - images/pics/arab.jpg
+    - images/pics/euro.png
+    - images/pics/euro.jpg
+    - images/pics/hadaramasrya.png
+    - images/pics/hadaramasrya.jpg
+    - images/pics/hnodhomr.png
+    - images/pics/hnodhomr.jpg
+    - images/pics/sen.png
+    - images/pics/sen.jpg
+    - images/pics/aklwaatfa.png
+    - images/pics/aklwaatfa.jpg
+    - images/pics/amira.png
+    - images/pics/amira.jpg
+    - images/pics/ansak.png
+    - images/pics/ansak.jpg
+    - images/pics/elhobelkber.png
+    - images/pics/elhobelkber.jpg
+    - images/pics/hob.png
+    - images/pics/hob.jpg
+    - images/pics/hobmozlm.png
+    - images/pics/hobmozlm.jpg
+    - images/pics/hobwkafa.png
+    - images/pics/hobwkafa.jpg
+    - images/pics/lknyahobk.png
+    - images/pics/lknyahobk.jpg
+    - images/pics/alab.png
+    - images/pics/alab.jpg
+    - images/pics/cinema.png
+    - images/pics/cinema.jpg
+    - images/pics/fnrsm.png
+    - images/pics/fnrsm.jpg
+    - images/pics/hiphop.png
+    - images/pics/hiphop.jpg
+    - images/pics/mlabsna.png
+    - images/pics/mlabsna.jpg
+    - images/pics/music.png
+    - images/pics/music.jpg
+    - images/pics/tswerrkmy.png
+    - images/pics/tswerrkmy.jpg
+    - images/pics/videogames.png
+    - images/pics/videogames.jpg
+    - images/pics/about.jpg
+    - images/pics/logo.jpg
+    - images/pics/mainlogo.jpg
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
